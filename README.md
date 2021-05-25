@@ -1,5 +1,7 @@
 # medical-docs package for espanso
-An [espanso](https://espanso.org) package to help with medical documentation
+An [espanso](https://espanso.org) package to help with emergency
+department medical documentation. Forked from the family medicine
+package created by Dr. Bill Ressl.
 
 ## Text-Expander for Medical Charting
 
@@ -28,7 +30,7 @@ can maintain on their own.
 1. Install [espanso](https://espanso.org)
 
 2. Install medical-docs package
-     `espanso install medical-docs`
+     `espanso emergency-medicine-docs https://github.com/docmcdonald/emergency-medicine-docs --external`
 
 3. Add the following to your default.yml
    Hint: found in the *Config* directory as listed by `espanso path`
